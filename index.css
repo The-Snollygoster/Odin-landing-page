@@ -2,19 +2,22 @@ body {
     font-family: 'roboto', sans-serif;
     display: flex;
     flex-direction: column;
+    padding: 0;
+    margin: 0;
 }
 
 .background-1 {
     background-color: #1F2937;
 }
 
+/* Header */
 .header {
     display: flex;
     justify-content: space-between;
     color: #F9FAF8;
     align-items: center;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .logo {
@@ -34,3 +37,62 @@ ul {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+/* container-1 */
+
+.container-1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex: 1;
+    overflow-wrap: break-word;
+    color: white;
+    margin-left: 15%;
+    gap: 5px;
+}
+
+#hero {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0 120px 0 0;
+}
+
+#hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0 150px 0 0;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 5px;
+    border-radius: 8px;
+    border: 0;
+    font-weight: 700
+}
+
+.right-content {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 250px;
+    background-color: #737781;
+    color: white;
+    margin-right: 15%;
+}
+
+/* container-2 */
+
