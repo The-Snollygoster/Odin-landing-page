@@ -43,7 +43,6 @@ ul {
 }
 
 /* container-1 */
-
 .container-1 {
     display: flex;
     justify-content: space-around;
@@ -99,7 +98,6 @@ ul {
 }
 
 /* container-2 */
-
 .infoheader {
     text-align: center;
     color: #1F2937;
@@ -129,7 +127,6 @@ ul {
 }
 
 /* Container 3 */
-
 .container-3 {
     display: flex;
     flex-direction: column;
@@ -150,7 +147,6 @@ ul {
 }
 
 /* container 4 */
-
 .infobox {
     display: flex;
     justify-content: space-between;
@@ -159,7 +155,7 @@ ul {
     color: #F9FAF8;
     border-radius: 8px;
     padding: 20px;
-    margin: 5% 20% 5% 20%;;
+    margin: 8% 20% 8% 20%;;
     height: 100px;
 }
 
@@ -189,4 +185,13 @@ ul {
 
 #action-text {
     margin: 0;
+}
+
+/* footer */
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 30px;
 }
