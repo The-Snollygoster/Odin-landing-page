@@ -96,3 +96,30 @@ button {
 
 /* container-2 */
 
+.infoheader {
+    text-align: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin: 0 20% 5% 20%;
+}
+
+#box {
+    height: 150px;
+    width: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 8px;
+}
+
+#text {
+    overflow-wrap: break-word;
+    width: 150px;
+    text-align: center;
+    color: #737781;
+}
