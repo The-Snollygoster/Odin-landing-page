@@ -75,7 +75,7 @@ ul {
     margin: 0 150px 0 0;
 }
 
-button {
+#button-1 {
     width: 100px;
     height: 30px;
     background-color: #3882F6;
@@ -94,7 +94,7 @@ button {
     width: 300px;
     height: 250px;
     background-color: #737781;
-    color: white;
+    color: #F9FAF8;
     margin-right: 15%;
 }
 
@@ -151,3 +151,42 @@ button {
 
 /* container 4 */
 
+.infobox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 5% 20% 5% 20%;;
+    height: 100px;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+#button-2 {
+    margin-right: 10%;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    width: 110px;
+    height: 40px;
+    background-color: #3882F6;
+    padding: 5px;
+    border-radius: 8px;
+    font-weight: 700
+}
+
+#action-header {
+    margin: 0;
+    font-weight: bold;
+}
+
+#action-text {
+    margin: 0;
+}
